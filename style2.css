@@ -1,0 +1,43 @@
+
+
+
+.privacy{
+    margin-top:10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: #167b7a;
+
+}
+
+.tp{
+    font-size: 70px;
+    margin-top: 90px;
+    text-align: center;
+    color: #063775;
+    font-weight: bold;
+
+}
+
+p{
+
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+
+
+
+    
+}
+
+.pp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+
+
