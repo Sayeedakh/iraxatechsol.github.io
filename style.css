@@ -26,6 +26,35 @@ html{
     text-decoration: none;
 }
 
+
+
+
+
+
+
+
+
+.bg{
+  
+    background-size: cover;
+         /* Default styles for images on desktop */
+         
+             max-width: 100%;
+             height: auto;
+         
+    
+ }
+ 
+         /* Media query for mobile devices */
+         @media (max-width: 768px) {
+             /* Adjust image size for mobile */
+             img {
+                 max-width: 100%; /* You can adjust the percentage as needed */
+                 height: auto;
+             }
+         }
+ 
+
 .container {
  
     margin-top: 6rem;
