@@ -29,6 +29,38 @@ html{
 
 
 
+/* Default styles for both mobile and desktop */
+.icon-container {
+    width: 100%;
+   
+}
+
+/* Styles for mobile display */
+@media (max-width: 767px) {
+    .desktop-icon {
+        display: none; /* Hide desktop icon on mobile */
+    }
+}
+
+/* Styles for desktop display */
+@media (min-width: 768px) {
+    .mobile-icon {
+        display: none; /* Hide mobile icon on desktop */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -576,6 +608,24 @@ form button{
 
 
 }
+
+
+
+
+/* Default styles for desktop */
+.map {
+    width: 100%; /* Use 100% of the container width */
+    height: 400px; /* Set the desired height for desktop */
+}
+
+      /* Media query for screens with a maximum width of 768px (typical mobile breakpoint) */
+      @media (max-width: 768px) {
+        .map {
+            height: 615px;
+            width: 415px; /* Adjust the height for mobile */
+        }
+    }
+    
 
 
 .footer{
